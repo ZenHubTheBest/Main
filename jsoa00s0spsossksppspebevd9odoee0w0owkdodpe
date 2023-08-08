@@ -1,0 +1,16 @@
+if game.PlaceId == 2753915549 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/gameopalskdbbdjskspwlwkksobdshsiownwhshpwpwnnsnoseoemndnd",true))()
+elseif game.PlaceId == 4442272183 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/gameopalskdbbdjskspwlwkksobdshsiownwhshpwpwnnsnoseoemndnd",true))()
+elseif game.PlaceId == 7449423635 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenHubTheBest/Main/main/gameopalskdbbdjskspwlwkksobdshsiownwhshpwpwnnsnoseoemndnd",true))()
+elseif game.PlaceId == 2788229376 then
+loadstring(game:HttpGet("https://sharetext.me/raw/83mf11f4jf", true))()
+elseif game.PlaceId == 286090429 then
+loadstring(game:HttpGet("https://sharetext.me/raw/exbfgydpbn", true))()
+elseif game.PlaceId == 6381829480 or game.PlaceId == 5931540094 or
+game.PlaceId == 4520749081 then
+loadstring(game:HttpGet(
+  "https://raw.githubusercontent.com/ZenHubBestScript/ZenHub/main/KingLegacy",
+  true))()
+end
