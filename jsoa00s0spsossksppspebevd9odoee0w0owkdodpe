@@ -11,6 +11,6 @@ loadstring(game:HttpGet("https://sharetext.me/raw/exbfgydpbn", true))()
 elseif game.PlaceId == 6381829480 or game.PlaceId == 5931540094 or
 game.PlaceId == 4520749081 then
 loadstring(game:HttpGet(
-  "https://raw.githubusercontent.com/ZenHubBestScript/ZenHub/main/KingLegacy",
+  "https://raw.githubusercontent.com/ZenHubTheBest/Main/main/kinggagcwcqgindospspsb",
   true))()
 end
