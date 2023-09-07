@@ -251,7 +251,7 @@ Title.BackgroundTransparency = 1.000
 Title.Position = UDim2.new(0.05, 0, 0.04, 0)
 Title.Size = UDim2.new(0, 483, 0, 31)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "ZEN HUB | ".."<font color='rgb(178, 102, 255)'>VERSION X</font>"
+Title.Text = "ZEN HUB ".."<font color='rgb(178, 102, 255)'>VERSION X </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 Title.RichText = true;
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 15.000
@@ -1667,8 +1667,8 @@ HeadTitle.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 HeadTitle.BackgroundTransparency = 0.000
 HeadTitle.BorderSizePixel = 0.400
 HeadTitle.ClipsDescendants = true
-HeadTitle.Position = UDim2.new(0.6, 0, 0.04, 0)
-HeadTitle.Size = UDim2.new(0, 170, 0, 28)
+HeadTitle.Position = UDim2.new(0.74, 0, 0.04, 0)
+HeadTitle.Size = UDim2.new(0, 100, 0, 28)
 HeadTitle.ZIndex = 16
 HeadTitle.Font = Enum.Font.GothamBold
 HeadTitle.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
@@ -2357,4 +2357,76 @@ return sections
 end
 return tabs
 end
-return library
+
+local Win = library:Evil()
+local Tab1 = Win:Tab("Main/Boss",14477284625)
+local Farms = Win:Tab("Item/Farms",14477543197)
+local Tab2 = Win:Tab("Player/Stat",14477563495)
+local RaceMirage = Win:Tab("Race/Mirrage",14477517268)
+local Fruit = Win:Tab("DevilFruit",14537413902)
+local Tab3 = Win:Tab("Travel/Raid",14477598542)
+local Tab4 = Win:Tab("Shops/Sword",14477621526)
+local Tab5 = Win:Tab("Misc/Server",14477663692)
+local PlayerStatus = Win:Tab("Status",14477673361)
+
+-------------[Tab1]-------------
+local Page1 = Tab1:CraftPage(1)
+Page1:Seperator("Main Farm")
+local Nears = Tab1:CraftPage(1)
+Nears:Seperator("Near Farm")
+local Page6 = Tab1:CraftPage(1)
+Page6:Seperator("Mastery Function")
+local Page5 = Tab1:CraftPage("Bosses",1)
+Page5:Seperator("Bosses")
+local Farms1 = Farms:CraftPage(1)
+local Farms2 = Farms:CraftPage(2)
+Farms2:Seperator("Fighting Styles")
+local Page3 = Tab1:CraftPage(2)
+Page3:Seperator("Configs")
+-------------[Tab2]-------------
+local Page9 = Tab2:CraftPage(1)
+local Page15 = Tab2:CraftPage(2)
+-------------[Tab3]-------------
+local Page10 = Tab3:CraftPage(1)
+local Page11 = Tab3:CraftPage(2)
+
+
+Page1:Button('Button',function()
+
+    print("t")
+
+end)
+
+Page1:Textbox("Test","",function(v)
+	print(v)
+end)
+
+Page1:Dropdown("Dropdown",{"1","2"},{""},function(v)
+    print(v)
+end)
+
+Page1:Slider("Slider",true,0,100,1,function(value)
+    print(value)
+end)
+
+Page1:Label('Label')
+
+Page1:Dropdown("Test",{"Melee","Sword","Gun","Fruit"},"Melee",function(a)
+    print(a)
+end)
+
+Page1:Toggle('Test',nil,function(a)
+    print(a)
+end)
+
+Page1:Button('Button',function()
+    print("t")
+end)
+
+Page1:MultiDropdown("MultiDropdown",{"MultiDropdown","MultiDropdown2"},{""},function(v)
+    print(v)
+end)
+
+Page1:Slider("Slider",true,0,100,1,function(value)
+    print(value)
+end)
